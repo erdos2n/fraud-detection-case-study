@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.4.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.4.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="741f4f36-ccba-4b75-bf62-9b18d2f60301"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"bd97a3e3-b180-443b-8ad5-d7650cfa0335":{"roots":{"references":[{"attributes":{"children":[{"id":"8671bc06-b682-4205-becf-60ead264cab0","type":"Dropdown"}]},"id":"7d0af1ac-fe82-4bcc-83d6-f95de65d47c2","type":"WidgetBox"},{"attributes":{"button_type":"warning","callback":null,"icon":null,"label":"Dropdown button","menu":[["Event Created to End","event_create_to_end"],["Tickets Sold","total_tickets_sold"],["Missing Payout Type?","payout_type_missing"],["Median Ticket Cost","median_ticket_cost"],["Sale Duration","sale_duration"]]},"id":"8671bc06-b682-4205-becf-60ead264cab0","type":"Dropdown"}],"root_ids":["7d0af1ac-fe82-4bcc-83d6-f95de65d47c2"]},"title":"Bokeh Application","version":"0.12.4"}};
+              var render_items = [{"docid":"bd97a3e3-b180-443b-8ad5-d7650cfa0335","elementid":"741f4f36-ccba-4b75-bf62-9b18d2f60301","modelid":"7d0af1ac-fe82-4bcc-83d6-f95de65d47c2"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
